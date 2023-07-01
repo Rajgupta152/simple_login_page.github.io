@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.87);
+}
+/* header section */
+#nav-bar{
+    background-color: #0277bd;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo{
+    background-image: url("https://rec-test.infosys.com/assets/images/itq_white.png");
+    background-size: cover;
+    height: 40px;
+    width: 45px;
+    margin-left: 50px;
+}
+.nav-profile{
+   font-size: 20px;
+   margin-right: 50px;
+}
+
+/* Content section */
+.content-image{
+    background-image: url("https://rec-test.infosys.com/assets/images/codespace_banner.png");
+    background-size: cover;
+    height: 500px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.login-forms{
+    width: 500px;
+    height: 300px;
+    margin-top: 200px;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    border: solid 2px #DDDDDD;
+    border-radius: 10px;
+}
+input:hover{
+    border-color: #0277bd;
+}
+.form-title{
+    font-size: 36px;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.border-line{
+    border: solid 0.5px #666666;
+    width: 30%;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.login-cred{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+button{
+    width: 400px;
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 40px;
+    border-style: none;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #0277bd;
+}
+.copyright{
+    background-color: #f5f5f5;
+    color: #666666;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    margin-top: 30px;
+    padding-right: 20px;
+}
